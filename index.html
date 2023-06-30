@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1;100;200;300;400;500;600&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 class="title">Chronomètre <span>.By Mehdi kertous </span>
+    </h1>
+
+    <div class="container">
+        <div class="screen">
+            <h1 id="heure">00</h1><span>H :</span>
+            <h1 id="minute">00</h1><span>Min :</span>
+            <h1 id="seconde">00</h1><span>Sec :</span>
+            <h1 id="miliSec">00</h1><span>MiliSec</span>
+        </div>
+        <div class="navigatorBtn">
+            <input type="button" value="START" id="start" onclick="startChrono()">
+            <input type="button" value="STOP" id="stop" onclick="stop()">
+            <input type="button" value="RESET" id="reset" onclick="reset()">
+        </div>
+    </div>
+
+    <script src="app.js">
+
+    </script>
+</body>
+
+</html>
